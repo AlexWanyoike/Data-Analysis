@@ -3,9 +3,9 @@ import datetime as dt
 # Create your models here.
 
 
-class Student(models.Model):
-    first_name = models.CharField(max_length=30)
-    last_name  = models.CharField(max_length=30)
+class Analysis(models.Model):
+    model = models.CharField(max_length=30)
+    models  = models.CharField(max_length=30)
 
     def __str__(self):
         return self.name

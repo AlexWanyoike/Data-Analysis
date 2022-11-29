@@ -5,7 +5,7 @@ from . import views
 
 urlpatterns=[
   
-  path('',views.create_student, name= 'main'),
+  path('',views.analysis, name= 'main'),
 
  
 ]
